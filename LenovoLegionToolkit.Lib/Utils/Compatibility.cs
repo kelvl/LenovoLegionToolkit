@@ -259,6 +259,12 @@ public static class Compatibility
         }
         catch { /* Ignored. */ }
 
+        //var powerModes2 = new List<PowerModeState>();
+        //powerModes2.Add(PowerModeState.Quiet);
+        //powerModes2.Add(PowerModeState.Balance);
+        //powerModes2.Add(PowerModeState.Performance);
+        //return powerModes2;
+
         return Array.Empty<PowerModeState>();
     }
 
